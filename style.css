@@ -1,0 +1,386 @@
+.body1{
+  background-image: url(pagebackgroun.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-image: url(footer6.jpeg);
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    border-style: none;
+    
+  }
+.logoP{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+  .home{
+    background-color: rgb(255, 0, 0);
+            color: #fff;
+            border: none;
+            height: 36px;
+            width: 100px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-top: 100px;
+            transition: opacity 1s;
+
+  }
+
+  .services{
+            color: white;
+            border: none;
+            height: 36px;
+            width: 100px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-top: 100px;
+            transition: opacity 1s;
+  }
+
+    .contact{
+    color: white;
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 100px;
+    transition: opacity 1s;
+
+    }
+
+  .about{
+
+    background-color: red; 
+    color: white;
+    border-radius: 4px;
+    height: 36px;
+    width: 63px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top: 100px;
+  }
+
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  main {
+    color: #fff;
+    background-repeat: none;
+    background-size: cover;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+  #get-in-touch {
+    color: white;
+    background-repeat: none;
+    background-size: cover;
+    max-width: 100%; /* set a maximum width for the section */
+    margin: 0 auto; /* center the section horizontally */
+    text-align: center; /* center the input boxes vertically */
+  }
+  
+  #get-in-touch form {
+    display: inline-block; /* make the form inline-block to center it horizontally */
+  }
+  
+  #get-in-touch div {
+    margin-top: 20px; /* add a 20px margin between each input box */
+  }
+  
+  #get-in-touch label {
+    display: block; /* display each label on a new line */
+    text-align: left; /* left-align the label text */
+  }
+  
+  #get-in-touch input,
+  #get-in-touch textarea {
+    width: 100%; /* set the width of the input fields to 100% */
+    padding: 10px; /* add some padding to the input fields */
+    box-sizing: border-box; /* include padding and border in the total width of the input fields */
+    border-radius: 4px; /* add rounded corners to the input fields */
+    border: 1px solid #ccc; /* add a border to the input fields */
+    font-size: 16px; /* set the font size of the input fields */
+  }
+  
+  #get-in-touch button[type="submit"] {
+    background-color: #4CAF50; /* set the background color of the submit button */
+    color: white; /* set the text color of the submit button */
+    padding: 10px 20px; /* add some padding to the submit button */
+    border: none; /* remove the border from the submit button */
+    border-radius: 4px; /* add rounded corners to the submit button */
+    font-size: 16px; /* set the font size of the submit button */
+    cursor: pointer; /* add a pointer cursor to the submit button */
+    transition: background-color 0.3s ease; /* add a transition effect to the submit button background color */
+  }
+  
+  #get-in-touch button[type="submit"]:hover {
+    background-color: red; /* change the background color of the submit button on hover */
+  }
+  
+
+
+  .welcome{
+    color: red;
+    font-size: 80px;
+    font-weight: bold;
+  }
+  .specialize{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+  }
+  .our{
+    color: red;
+  }
+  
+  .services-section {
+    margin: auto;
+    margin-top: 60px;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .services-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-item {
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .service-item h3 {
+    margin: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+
+  .gallery {
+    max-width: 200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .slides::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .slides::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  .slides img {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+
+
+
+  .customer-reviews-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    max-width: 500px;
+  margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .add-review {
+    text-align: left;
+  }
+  
+  .add-review label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-review input[type="text"],
+  .add-review textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .add-review button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-review button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .customer-review {
+    margin-top: 30px;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .customer-review .reviewer-info {
+    margin-bottom: 10px;
+  }
+  
+  .customer-review .reviewer-info h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .customer-review p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .review-date {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  /* Footer */
+  footer {
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(4, 4, 59);
+    
+  }
+  
+  .block {
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+  }
+  
+  .block:last-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .devoir{
+    margin-top: 50px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media img {
+    max-width: 30px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .social{
+    max-width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo{
+    max-width: 30px;
+    height: 20px;
+  }
+
+  p{
+    margin-top: 5px;
+  }
+
+  .logo1{
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+/* social medias contacts */
+
+.social1{
+  color: white;
+  margin: 0 auto; 
+  width: 300px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.social{
+  max-width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
